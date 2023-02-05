@@ -1,0 +1,52 @@
+.top {
+  background-color: #270433e3;
+  height: 19vh;
+  width: 99vw;
+  margin-left: -8px;
+  margin-top: -12px ;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: aliceblue;
+  font-size: 1.3rem;
+  gap: 2rem;
+  padding: 2.2rem;
+}
+.logo{
+    position: absolute;
+    top: -1.8rem;
+    margin-left: 6rem;
+    height: 5px;
+    margin-top: -0.9rem;
+    padding-top: -5px ;
+
+}
+.home{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+.aboutus{
+    cursor: pointer;
+}
+.blog{
+    cursor: pointer;
+}
+.app{
+    cursor: pointer;
+}
+.button {
+  display: flex;
+  height: 2rem;
+  cursor: pointer;
+  justify-content: space-around;
+  background-color:  rgba(236, 133, 48, 0.863);;
+  width: 7.5rem;
+  align-items: center;
+  box-shadow: 5px 5px 5px #191430fd;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  color: rgb(236, 214, 214);
+}
